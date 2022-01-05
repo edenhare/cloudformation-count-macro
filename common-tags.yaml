@@ -1,0 +1,10 @@
+Tags:
+  - Key: project
+    Value: micro
+  - Key: department
+    Value: engineering
+  - Key: owner
+    Value: Billy Bob
+  - Key: createdby
+    Value:
+      Ref: CreatedBy

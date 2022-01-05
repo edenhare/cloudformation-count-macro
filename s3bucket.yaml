@@ -1,0 +1,7 @@
+Resources:
+  
+  bucket1:
+    Type: AWS::S3::Bucket
+
+  bucket2:
+    Type: AWS::S3::Bucket

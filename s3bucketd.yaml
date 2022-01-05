@@ -1,0 +1,17 @@
+Transform:
+  - Count
+Resources:
+  Bucket:
+    Type: AWS::S3::Bucket
+    Count: 3
+    Properties:
+      BucketName: "bucket-name-with-iterator-%d"
+      Tags:
+        - Key: "Name"
+          Value: "Test Bucket %d"
+        - Key: "department"
+          Value: "IT"
+        - Key: "owner"
+          Value: "Billy Bob"
+        - Key: "cost-center"
+          Value: "00186"
